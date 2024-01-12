@@ -65,9 +65,17 @@ body {
     height:150px;
 }
 
-ul, li {
-    padding: 0px;
+.padding-side-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.margin-none {
     margin: 0px;
+}
+
+.list-style-type-none {
+    list-style-type: none;
 }
 
 .font-italic {
@@ -102,6 +110,10 @@ ul, li {
     color: #E5E7EB;
 }
 
+.bg-E5E7EB {
+    background: #E5E7EB;
+}
+
 .color-1F2937 {
     color: #1F2937;
 }
@@ -114,7 +126,7 @@ ul, li {
     font-weight: bold;
 }
 
-.justify-centered {
+.justify-center {
     justify-content: center;
 }
 
@@ -131,6 +143,16 @@ ul, li {
     border-radius: 12%;
 }
 
+.border-3882F6 {
+    border: solid #3882F6 4px;
+}
+
+.gallery-item {
+    border-radius: 12%;
+    border: solid #3882F6 4px;
+}
+
 z* {
     border: solid red 1px;
 }
+
