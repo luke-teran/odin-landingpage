@@ -1,7 +1,6 @@
 html {
     font-family: arial;
     font-size: 22px;
-    padding: 0 4em;
 }
 
 body {
@@ -10,74 +9,128 @@ body {
     height: 100vh;
 }
 
-* {
-    border: solid red 1px;
+#header,
+#footer {
+    padding: 0 10%
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.side-padding {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.modal-right {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 50%;
-    gap: 1em;;
+.up-padding {
+    padding-top: 2em;
 }
 
-.modal-left {
-    display: flex;
+.down-padding {
+    padding-bottom: 4em;
+}
+
+.bg-1F2937 {
+    background:#1F2937
+}
+
+.bg-3882F6 {
+    background: #3882F6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padded {
+    padding: 1em;
+}
+
+.rows,
+.columns {
+    display: flex
+}
+
+.rows {
     flex-direction: column;
-    max-width: 600px;    
 }
 
-.modal-2col {
-    display: flex;
+.columns {
     flex-direction: row;
+}
+
+.justify-space-between {
     justify-content: space-between;
 }
 
-.signup {
-    color: white;
-    font-weight: bolder;
-    display: flex;
-    justify-content: flex-start;
+.main-image{
+    width:300px;
+    height:150px;
 }
 
-.signup div {
-    background: blue;
-    padding: 10px 40px;
-    border-radius: 15%
-}
-
-h1 {
-
-}
-
-h2 {
+ul, li {
     padding: 0px;
     margin: 0px;
-
 }
 
-h3 {
-    
+.font-italic {
+    font-style: italic;
+}
+.
+.font-36 {
+    font-size: 36px;
 }
 
-a {
-
+.font-48 {
+    font-size: 48px;
 }
 
-img {
-
+.font-18 {
+    font-size:18px;
 }
 
-button {
-
+.font-24 {
+    font-size:24px;
 }
 
+.font-bolder {
+    font-weight: bolder;
+}
+
+.color-F9FAF8 {
+    color: #F9FAF8;
+}
+
+.color-E5E7EB {
+    color: #E5E7EB;
+}
+
+.color-1F2937 {
+    color: #1F2937;
+}
+
+.align-self-right {
+    align-self: flex-end;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.justify-centered {
+    justify-content: center;
+}
+
+.vertical-padding-sm {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.round {
+    border-radius: 12%;
+}
+
+z* {
+    border: solid red 1px;
+}
