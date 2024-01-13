@@ -110,6 +110,15 @@ body {
     color: #E5E7EB;
 }
 
+.color-E5E6EB {
+    color: #E5E6EB;
+}
+
+h3 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .bg-E5E7EB {
     background: #E5E7EB;
 }
