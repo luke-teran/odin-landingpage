@@ -10,13 +10,10 @@ body {
 }
 
 #header,
-#footer {
-    padding: 0 10%
-}
-
+#footer,
 .side-padding {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 16.66%;
+    padding-right: 16.66%;
 }
 
 .up-padding {
@@ -165,7 +162,11 @@ a {
 }
 
 .round {
-    border-radius: 12%;
+    border-radius: 10px;
+}
+
+.border-F9FAF8 {
+    border: solid #F9FAF8 3px;
 }
 
 .border-3882F6 {
@@ -184,6 +185,7 @@ a {
 .gallery-descr {
     width: 200px;
     text-align: center;
+    padding-top: 0.5em;
 }
 
 x* {
