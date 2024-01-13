@@ -27,6 +27,24 @@ body {
     padding-bottom: 4em;
 }
 
+.padded {
+    padding: 1em;
+}
+
+.padding-side-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.vertical-padding-sm {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.button-padding {
+    padding: 1em 3em;
+}
+
 .bg-1F2937 {
     background:#1F2937
 }
@@ -35,14 +53,15 @@ body {
     background: #3882F6;
 }
 
-.bold {
-    font-weight: bold;
+.bg-E5E7EB {
+    background: #E5E7EB;
 }
 
-.padded {
-    padding: 1em;
+.bg-6d747d {
+    background: #6d747d;
 }
 
+.flex,
 .rows,
 .columns {
     display: flex
@@ -61,13 +80,15 @@ body {
 }
 
 .main-image{
-    width:300px;
-    height:150px;
+    width:100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
 }
 
-.padding-side-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+.gap {
+    gap:1em;
 }
 
 .margin-none {
@@ -81,7 +102,11 @@ body {
 .font-italic {
     font-style: italic;
 }
-.
+
+.font-18 {
+    font-size:18px;
+}
+
 .font-36 {
     font-size: 36px;
 }
@@ -90,12 +115,12 @@ body {
     font-size: 48px;
 }
 
-.font-18 {
-    font-size:18px;
-}
-
 .font-24 {
     font-size:24px;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 .font-bolder {
@@ -114,38 +139,29 @@ body {
     color: #E5E6EB;
 }
 
-h3 a {
+a {
     color: inherit;
     text-decoration: inherit;
-}
-
-.bg-E5E7EB {
-    background: #E5E7EB;
 }
 
 .color-1F2937 {
     color: #1F2937;
 }
 
-.align-self-right {
-    align-self: flex-end;
-}
-
-.font-bold {
-    font-weight: bold;
-}
-
 .justify-center {
     justify-content: center;
 }
 
-.vertical-padding-sm {
-    padding-top: 1em;
-    padding-bottom: 1em;
+.align-self-right {
+    align-self: flex-end;
 }
 
 .align-center {
     align-items: center;
+}
+
+.align-self-center {
+    align-self: center;
 }
 
 .round {
@@ -157,11 +173,20 @@ h3 a {
 }
 
 .gallery-item {
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 175px;
     border-radius: 12%;
     border: solid #3882F6 4px;
 }
 
-z* {
+.gallery-descr {
+    width: 200px;
+    text-align: center;
+}
+
+x* {
     border: solid red 1px;
 }
 
